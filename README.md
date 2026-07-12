@@ -7,7 +7,6 @@
   <strong>Create • Learn • Organize • Achieve</strong><br>
   A modern AI-powered productivity platform designed to help users accomplish more every day with intelligent tools, automation, and a seamless user experience.
 </p>
-
 <p align="center">
   <a href="https://aura247.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/🌐_Live_Website-Visit_Now-blue?style=for-the-badge">
@@ -21,7 +20,7 @@
 
 </div>
 
----
+--
 
 # ✨ About
 
@@ -29,7 +28,7 @@
 
 Whether you're a student, developer, creator, or professional, Aura247 provides powerful AI tools to improve productivity, save time, and enhance your workflow—all from a clean and intuitive interface.
 
----
+--
 
 # 🚀 Features
 
