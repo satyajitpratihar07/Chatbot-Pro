@@ -1,101 +1,136 @@
-# 🌌 Aura AI — Premium Intelligent Virtual Assistant
-
 <div align="center">
 
-[![React](https://img.shields.github.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.github.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62B)](https://vitejs.dev/)
-[![Tailwind CSS v4](https://img.shields.github.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Groq API](https://img.shields.github.io/badge/Groq_API-f35b25?style=for-the-badge&logo=lightning&logoColor=white)](https://groq.com/)
-[![JavaScript](https://img.shields.github.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+# ✨ Aura247
+### 🚀 Your Everyday AI Productivity Companion
 
-**A high-performance virtual assistant client featuring server-side mask proxies, customizable sliders, dynamic styles customizers, and interactive pipeline sandboxes.**
+<p align="center">
+  <strong>Create • Learn • Organize • Achieve</strong><br>
+  A modern AI-powered productivity platform designed to help users accomplish more every day with intelligent tools, automation, and a seamless user experience.
+</p>
+
+<p align="center">
+  <a href="https://aura247.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Website-Visit_Now-blue?style=for-the-badge">
+  </a>
+</p>
+
+<img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Platform-Web-orange?style=for-the-badge">
+<img src="https://img.shields.io/badge/Powered_by-AI-purple?style=for-the-badge">
+<img src="https://img.shields.io/badge/Made_with-❤️-red?style=for-the-badge">
 
 </div>
 
 ---
 
-## 🎯 Key Capabilities
+# ✨ About
 
-* **🔒 Server-Side Key Masking**: Completely bypasses client-side authorization headers by running local Node.js rewrites, shielding private keys from browser devtools.
-* **⚡ Groq LPU Engine Integration**: Queries the `llama-3.3-70b-versatile` completion node with stream processing support.
-* **🧠 Real-Time Personality Tuning**: Shift prompt instructions instantly using sliders:
-  * **Precision Mode**: Direct, factual markdown lists (no conversational filler).
-  * **Balanced Mode**: Professional and conversational assistance.
-  * **Creative Burst**: Elaborate concepts, vocabulary, and metaphors.
-* **🔬 Analytical Depth Parsing**: Isolates and filters raw `<thinking>` XML logs from token responses, rendering them inside custom consoles.
-* **🎨 Style Customization Dashboard**: Toggle light, dark, and high-contrast modes, or choose colored accent rings (Cyan, Purple, Gold, Coral) to rebind HSL root colors in real-time.
-* **🔄 Interactive Pipeline Simulator**: Play an interactive vector simulation that visualizes authorized connection handshakes and data packets moving between client, proxy, and Groq.
-* **📂 Search Query Logging**: Automatically caches search parameters inside persistent `localStorage` queues.
+**Aura247** is an all-in-one AI-powered productivity platform that simplifies everyday tasks through intelligent automation and modern technology.
+
+Whether you're a student, developer, creator, or professional, Aura247 provides powerful AI tools to improve productivity, save time, and enhance your workflow—all from a clean and intuitive interface.
 
 ---
 
-## 🏗️ Data Flow Architecture
+# 🚀 Features
 
-```
-[User Browser Client]
-      │
-      │ (Unauthenticated Fetch: /api/groq/chat/completions)
-      ▼
-[Vite Local Proxy Gateway (Node.js)]
-      │
-      │ (Intercepts request, loads GROQ_API_KEY from .env, injects Auth Header)
-      ▼
-[Groq Cloud API Endpoint (Authorized HTTPS POST)]
-```
-
----
-
-## 🛠️ Installation & Setup
-
-### 1. Set Up Environment Keys
-Create a `.env` file in the root project folder:
-```env
-GROQ_API_KEY=gsk_your_groq_api_token_here
-```
-
-> [!CAUTION]
-> Never name the key `VITE_GROQ_API_KEY`. If you do, Vite's compiler automatically bundles the key into client browser scripts, exposing it to visitors.
-
-### 2. Install Node Packages
-```bash
-npm install
-```
-
-### 3. Run Development Server
-```bash
-npm run dev
-```
-
-> [!IMPORTANT]
-> If you make changes to `.env` or `vite.config.js`, you must **restart the dev server** in your terminal for the Node server to register the new proxy settings.
-
-### 4. Build Production Bundle
-```bash
-npm run build
-```
+- 🤖 AI-Powered Assistance
+- ⚡ Smart Productivity Tools
+- 💬 Intelligent Conversations
+- 📝 Content Generation
+- 🎯 Task Management
+- 📚 Learning Support
+- 🔍 Quick Information Access
+- 🌙 Modern Responsive UI
+- 🔒 Secure Experience
+- 🚀 Fast Performance
 
 ---
 
-## 🔄 Proxy Server Configurations
+# 🎯 Who Is It For?
 
-The relative route redirection is declared inside `vite.config.js`:
-```javascript
-server: {
-  proxy: {
-    '/api/groq': {
-      target: 'https://api.groq.com/openai/v1',
-      changeOrigin: true,
-      rewrite: (path) => path.replace(/^\/api\/groq/, ''),
-      headers: {
-        'Authorization': `Bearer ${env.GROQ_API_KEY}`
-      }
-    }
-  }
-}
-```
+- 👨‍🎓 Students
+- 👩‍💻 Developers
+- 🎨 Creators
+- 📈 Professionals
+- 🚀 Freelancers
+- 💡 AI Enthusiasts
 
 ---
 
-## 👥 Authorship & Credits
+# 🌐 Live Website
 
-* **Developer**: **Satyajit Pratihar**
+### https://aura247.vercel.app
+
+---
+
+# 💡 Why Aura247?
+
+Aura247 combines multiple AI-powered capabilities into one platform, reducing the need to switch between different tools. It helps users work smarter, stay organized, and boost productivity with intelligent features available anytime, anywhere.
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Responsive Design
+- Vercel
+
+---
+
+# 📱 Responsive Design
+
+✅ Desktop
+
+✅ Laptop
+
+✅ Tablet
+
+✅ Mobile
+
+---
+
+# 🌟 Future Roadmap
+
+- 🤖 Advanced AI Agents
+- 📅 Smart Planner
+- 📂 Cloud Synchronization
+- 🎙️ Voice Commands
+- 🌍 Multi-language Support
+- 📊 Analytics Dashboard
+- 🔔 Smart Notifications
+- ⚡ AI Workflow Automation
+
+---
+
+# ❤️ Mission
+
+> **Empowering people with intelligent AI tools to learn faster, work smarter, and create more—every single day.**
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and feature requests are always welcome.
+
+If you find this project useful, don't forget to ⭐ the repository.
+
+---
+
+# 👨‍💻 Developer
+
+**Satyajit Pratihar**
+
+Passionate about building AI-powered applications that solve real-world problems through innovative technology and exceptional user experiences.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, give it a Star!
+
+Made with ❤️ by **Satyajit Pratihar**
+
+</div>
