@@ -1,7 +1,7 @@
 <div align="center">
 
 # ✨ Aura247
-### 🚀 Your Everyday AI Productivity Companion
+### 🚀 Your Everyday AI Productivity Companion 
 
 <p align="center">
   <strong>Create • Learn • Organize • Achieve</strong><br>
