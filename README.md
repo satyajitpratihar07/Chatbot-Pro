@@ -125,7 +125,6 @@ If you find this project useful, don't forget to ⭐ the repository.
 Passionate about building AI-powered applications that solve real-world problems through innovative technology and exceptional user experiences.
 
 ---
-
 <div align="center">
 
 ### ⭐ If you like this project, give it a Star!
