@@ -62,7 +62,7 @@ Whether you're a student, developer, creator, or professional, Aura247 provides 
 
 ---
 
-# 💡 Why Aura247?
+💡 Why Aura247?
 
 Aura247 combines multiple AI-powered capabilities into one platform, reducing the need to switch between different tools. It helps users work smarter, stay organized, and boost productivity with intelligent features available anytime, anywhere.
 
