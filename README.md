@@ -45,7 +45,7 @@ Whether you're a student, developer, creator, or professional, Aura247 provides 
 
 ---
 
-# 🎯 Who Is It For?
+🎯 Who Is It For?
 
 - 👨‍🎓 Students
 - 👩‍💻 Developers
