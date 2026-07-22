@@ -30,7 +30,7 @@ Whether you're a student, developer, creator, or professional, Aura247 provides 
 
 --
 
-# 🚀 Features
+🚀 Features
 
 - 🤖 AI-Powered Assistance
 - ⚡ Smart Productivity Tools
