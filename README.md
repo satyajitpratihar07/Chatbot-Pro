@@ -22,7 +22,7 @@
 
 --
 
-# ✨ About
+✨ About
 
 **Aura247** is an all-in-one AI-powered productivity platform that simplifies everyday tasks through intelligent automation and modern technology.
 
