@@ -56,9 +56,9 @@ Whether you're a student, developer, creator, or professional, Aura247 provides 
 
 ---
 
-# 🌐 Live Website
+🌐 Live Website
 
-### https://aura247.vercel.app
+✨https://aura247.vercel.app
 
 ---
 
